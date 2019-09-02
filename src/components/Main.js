@@ -2,6 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import Capital_One_logo from '../images/Capital_One_logo.svg'
+import Bank_of_America_logo from '../images/Bank_of_America_logo.svg'
+import UNited_State_Navy from '../images/United_States_Navy.svg'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
@@ -27,10 +29,10 @@ class Main extends React.Component {
           <span className="image main"><img src={Capital_One_logo} alt="" /></span>
           <p>I currently work at Capital One as a Software Engineering Manager.  I manage a team of 5 to 7 Junior to Senior engineers using the Agile framework.  My team's primary foucs is to ensure a well managed cloud environment and automate as much as possible in order to make the developer's life as easy as posisble.  We develop APIs, Micro Services and full web based applications using our preferred stack of Python/Flask, Golang, React, AWS DynamoDB, AWS RDS, AWS Lambda, and so much more.</p>
           <p>A current project my team is developing is a platform built using our preferred stack that will allow develoeprs to manage sensitive AWS services such as S3, IAM, SQS, SNS and implement least privilege policies to keep our data safe.</p>
-          <span className="image main"><img src={pic02} alt="" /></span>
+          <span className="image main"><img src={Bank_of_America_logo} alt="" /></span>
           <p>This is my work Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
           <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
-          <span className="image main"><img src={pic02} alt="" /></span>
+          <span className="image main"><img src={UNited_State_Navy} alt="" /></span>
           <p>This is my work Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
           <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
           {close}
