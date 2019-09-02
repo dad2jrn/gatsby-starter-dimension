@@ -8,9 +8,8 @@ const Header = (props) => (
         </div>
         <div className="content">
             <div className="inner">
-                <h1>Dimension</h1>
-                <p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
-                for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+                <h1>Ron Meck</h1>
+                <p>I am a software engineering manager with experience in Application Design, Enterprise Architecture, DevOps, Site Reliability Enginering, Cloud Architecture, User Experience, CI/CD, React, Python, Flask, Agile Framework, and much more. </p>
             </div>
         </div>
         <nav>
