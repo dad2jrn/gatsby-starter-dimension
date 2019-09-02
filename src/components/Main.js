@@ -1,12 +1,11 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
+import React from 'react';
+import Bank_of_America_logo from '../images/Bank_of_America_logo.svg';
+import Capital_One_logo from '../images/Capital_One_logo.svg';
+import pic01 from '../images/pic01.jpg';
+import pic02 from '../images/pic02.jpg';
+import pic03 from '../images/pic03.jpg';
 
-import Capital_One_logo from '../images/Capital_One_logo.svg'
-import Bank_of_America_logo from '../images/Bank_of_America_logo.svg'
-import UNited_State_Navy from '../images/United_States_Navy.svg'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
   render() {
@@ -32,7 +31,7 @@ class Main extends React.Component {
           <span className="image main"><img src={Bank_of_America_logo} alt="" /></span>
           <p>This is my work Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
           <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
-          <span className="image main"><img src={UNited_State_Navy} alt="" /></span>
+          <span className="image main"><img src={pic02} alt="" /></span>
           <p>This is my work Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
           <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
           {close}
