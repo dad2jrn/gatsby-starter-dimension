@@ -26,11 +26,11 @@ class Main extends React.Component {
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Career</h2>
           <span className="image main"><img src={Capital_One_logo} alt="" /></span>
-          <h2>Manager, Software Engineering</h2>
+          <h3>Manager, Software Engineering</h3>
           <p>I currently work at Capital One as a Software Engineering Manager.  I manage a team of 5 to 7 Junior to Senior engineers using the Agile framework.  My team's primary foucs is to ensure a well managed cloud environment and automate as much as possible in order to make the developer's life as easy as posisble.  We develop APIs, Micro Services and full web based applications using our preferred stack of Python/Flask, Golang, React, AWS DynamoDB, AWS RDS, AWS Lambda, and so much more.</p>
           <p>The team is currently developing a platform built using our preferred stack that will allow develoeprs to manage sensitive AWS services such as S3, IAM, SQS, SNS and implement least privilege policies to keep our data safe.</p>
 
-          <h2>Senior Software Engineer</h2>
+          <h4>Senior Software Engineer</h4>
           <p>I currently work at Capital One as a Software Engineering Manager.  I manage a team of 5 to 7 Junior to Senior engineers using the Agile framework.  My team's primary foucs is to ensure a well managed cloud environment and automate as much as possible in order to make the developer's life as easy as posisble.  We develop APIs, Micro Services and full web based applications using our preferred stack of Python/Flask, Golang, React, AWS DynamoDB, AWS RDS, AWS Lambda, and so much more.</p>
           <p>The team is currently developing a platform built using our preferred stack that will allow develoeprs to manage sensitive AWS services such as S3, IAM, SQS, SNS and implement least privilege policies to keep our data safe.</p>
 
